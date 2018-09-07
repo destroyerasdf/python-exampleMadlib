@@ -36,7 +36,10 @@ print(answer)
 ##      "Snatchers\n5.",noun,
 ##      "from the",adjective2,"Lagoon\n6. Last",noun,"on the Left\n7. The",noun,
 ##      "of the Opera")
+
+
 secret = input("Press Enter To Continue...")
+##secret route
 if secret == "secret":
     print("you found the secret!")   
 
@@ -69,6 +72,7 @@ if secret == "secret":
                 exit(102)
         else:
             exit(101)
+  ##no secret route          
 else:
     noun = input("Enter a Noun: ")
     noun2 = input("Enter a second Noun: ")
