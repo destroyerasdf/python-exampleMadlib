@@ -5,7 +5,7 @@
 
 
 
-first_name = "nick"
+first_name = "destro"
 
 print(first_name)
 
